@@ -387,6 +387,10 @@ nav a:hover{
   font-size:1rem;
   font-weight:500;
   transition:0.25s;
+  cursor:pointer;
+}
+.project-button:focus{
+  outline:0;
 }
 .project-button:hover{
   background: linear-gradient(to right, #f96259, #ff9068);
@@ -403,6 +407,10 @@ nav a:hover{
   font-weight:500;
   margin-left:20px;
   transition:0.25s;
+  cursor:pointer;
+}
+.project-code-button:focus{
+  outline:0;
 }
 .project-code-button:hover{
    transition: .5s ease;
@@ -442,6 +450,10 @@ nav a:hover{
 
 
 /* * BOOKR */
+#bookr-photo{
+  height:400px;
+  overflow:hidden;
+}
 .bookr-project img{
   width:100%;
 }
@@ -496,6 +508,9 @@ nav a:hover{
   .individual-project{
     padding:15px;
   }
+  #bookr-photo{
+    height:300px;
+  }
 }
 
 #airbnb{
@@ -515,8 +530,16 @@ nav a:hover{
   align-items:center;
   justify-content:space-between;
 }
-
-
+/* #citrics{
+  height:400px;
+  padding-bottom:-20px;
+  border-radius:5px;
+} */
+@media only screen and (max-width: 500px){
+  #citrics{
+    height:200px;
+  }
+}
 
 
 

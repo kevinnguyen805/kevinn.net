@@ -1,22 +1,18 @@
 import React from 'react'
 import ImmunifyPicture from '../ImmunifyPicture.png'
-import BookrList from '../BookrList.jpeg'
 import BookrBook from '../BookrBook.JPG'
 import Marvel1 from '../Marvel1.png'
 import ReactIcon from '../ReactIcon.svg'
 import airbnb from '../airbnb4.png'
 import node from '../node.png'
 
+import citrics_three from '../citrics_three.png'
+
 import Fade from 'react-reveal/Fade';
-import makeCarousel from 'react-reveal/makeCarousel'
-import Slide from 'react-reveal/Slide'
+
 
 function Project() {
 
-     const CarouselUI = ({ children }) => <div>
-          {children}
-     </div>;
-     const Carousel = makeCarousel(CarouselUI);
 
 
      return (
@@ -30,16 +26,33 @@ function Project() {
                     <h4>If you'd like to see more, click <a href="https://github.com/kevinnguyen805">here</a> </h4>
                </div>
 
-              
-
-               {/* Immunify */}
+               {/* Citrics */}
                <div className="individual-project bookr">
                     <Fade left>
-                    <div className="immunify-picture">
-                         <img src={ImmunifyPicture} />
-                    </div>
+                         <div className="immunify-picture" id="citrics">
+                              <a href="https://www.citrics.io/"><img src={citrics_three} /></a>
+                         </div>
                     </Fade>
                     <Fade right>
+                         <div className="content">
+                              <h3 className="project-headline">Citrics</h3>
+                              <h4 className="project-subheadline">Capstone Project</h4>
+                              <p>Citrics was awarded first place at Lambda Demo Day 2020.</p>
+
+                              <p>Citrics is a search engine that streamlines city data such as the housing market, job industry, and community statistics through an intuitive and easy interface.</p>
+                              <div className="tech-stack">
+                                   <img className="code-icon" src={ReactIcon} />
+                                   <p>Tech stack: React, Node.js, ChartJS, OAuth, MapBox, Google Analytics </p>
+                              </div>
+                              <a href="https://www.citrics.io/"><button className="project-button">View</button></a>
+                              <a href="https://github.com/Lambda-School-Labs/city-data-comparison-fe"><button className="project-code-button">Code</button></a>
+                         </div>
+                    </Fade>
+               </div>
+
+               {/* Immunify */}
+               <div className="individual-project">
+                    <Fade left>
                     <div className="content">
                          <h3 className="project-headline">Immunify</h3>
                          <h4 className="project-subheadline">Lambda Build Week</h4>
@@ -49,11 +62,21 @@ function Project() {
                          <a href="https://github.com/BWimmunizationtracker/frontEnd"><button className="project-code-button">Code</button></a>
                     </div>
                     </Fade>
+                    <Fade right>
+                         <div className="immunify-picture">
+                              <img src={ImmunifyPicture} />
+                         </div>
+                    </Fade>
                </div>
 
                {/* Airbnb */}
-               <div className="individual-project">
+               <div className="individual-project bookr">
                     <Fade left>
+                         <div className="immunify-picture" id="airbnb">
+                              <img src={airbnb} />
+                         </div>
+                    </Fade>
+                    <Fade right>
                     <div className="content">
                          <h3 className="project-headline">AirBnB Price Optimizer</h3>
                          <h4 className="project-subheadline" id="airbnb-subheadline">Lambda Build Week</h4>
@@ -66,34 +89,11 @@ function Project() {
                          <a href="https://github.com/AirBnB-Optimal-Price-1-LS/Back-End"><button className="project-code-button">Code</button></a>
                     </div>
                     </Fade>
-                    <Fade right>
-                    <div className="immunify-picture" id="airbnb">
-                         <img src={airbnb} />
-                    </div>
-                    </Fade>
                </div>
 
                {/* Bookr */}
-               <div className="individual-project bookr">
-                    <Fade>
-                    <div className='immunify-picture'>
-                         <div className="carousel-container">
-                              <Carousel defaultWait={3000}>
-                                   <Slide right>
-                                        <div className="bookr-project">
-                                             <img src={BookrBook} />
-                                        </div>
-                                   </Slide>
-                                   <Slide right>
-                                        <div className="bookr-project">
-                                             <img src={BookrList} />
-                                        </div>
-                                   </Slide>
-                              </Carousel>
-                         </div>
-                    </div>
-                    </Fade>
-                    <Fade right>
+               <div className="individual-project">
+                    <Fade left>
                     <div className="content">
                          <h3 className="project-headline">Bookr</h3>
                          <h4 className="project-subheadline">Lambda Build Week </h4>
@@ -108,11 +108,21 @@ function Project() {
                          <a href="https://github.com/BW-BookR-2019/FE"><button className="project-code-button">Code</button></a>
                     </div>
                     </Fade>
+                    <Fade right>
+                         <div className="immunify-picture" id="bookr-photo">
+                              <img src={BookrBook} />
+                         </div>
+                    </Fade>
                </div>
 
 
-               <div className="individual-project">
+               {/* <div className="individual-project">
                     <Fade left>
+                         <div className="immunify-picture">
+                              <img src={Marvel1} />
+                         </div>
+                    </Fade>
+                    <Fade right>
                     <div className="content">
                          <h3 className="project-headline">Marvel Movie Marathon</h3>
                          <h4 className="project-subheadline">Personal Project</h4>
@@ -125,14 +135,8 @@ function Project() {
                          <a href="https://marvel-marathon-guide.netlify.com/"><button className="project-button">View</button></a>
                          <a href="https://github.com/kevinnguyen805/marvel-marathon-guide"><button className="project-code-button">Code</button></a>
                     </div>
-                     </Fade>
-
-                    <Fade right>
-                    <div className="immunify-picture">
-                         <img src={Marvel1} />
-                    </div>
                     </Fade>
-               </div>
+               </div> */}
 
 
           </div>

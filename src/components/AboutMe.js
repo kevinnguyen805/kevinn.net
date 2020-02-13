@@ -24,7 +24,7 @@ function AboutMe() {
                     <Fade bottom>
                     <div className="about-content-container">
                          <h5 className="about-subtitle">What I'm doing</h5>
-                         <p>After graduating from University of California, Santa Barbara with a <span className="about-accents">degree in Biology</span>, I threw in my scrubs to study<span className="about-accents"> full stack web development</span> at Lambda School.</p> <p>If I’ve learned anything from coding thus far, it’s that <span className="about-italics">languages are always changing and evolving - and I plan on doing the same.</span></p>
+                         <p>After graduating from University of California, Santa Barbara with a <span className="about-accents">degree in Biology</span>, I threw in my scrubs to become a <span className="about-accents"> FullStack Web Developer</span>.</p> <p>If I’ve learned anything from coding thus far, it’s that <span className="about-italics">languages are always changing and evolving - and I plan on doing the same.</span></p>
                     </div>
                     </Fade>
 
