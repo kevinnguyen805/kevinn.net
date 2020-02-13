@@ -1,11 +1,10 @@
 import React from 'react'
 import ImmunifyPicture from '../ImmunifyPicture.png'
-import BookrBook from '../BookrBook.jpg'
 import Marvel1 from '../Marvel1.png'
 import ReactIcon from '../ReactIcon.svg'
 import airbnb from '../airbnb4.png'
 import node from '../node.png'
-import bookrbook from '../bookrbook.png'
+import bookr_img from '../bookrbook.png'
 import citrics_three from '../citrics_three.png'
 
 import Fade from 'react-reveal/Fade';
@@ -110,7 +109,7 @@ function Project() {
                     </Fade>
                     <Fade right>
                          <div className="immunify-picture" id="bookr-photo">
-                              <img src={bookrbook} />
+                              <img src={book_img} alt="bookr"/>
                          </div>
                     </Fade>
                </div>
