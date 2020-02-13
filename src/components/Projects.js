@@ -5,7 +5,7 @@ import Marvel1 from '../Marvel1.png'
 import ReactIcon from '../ReactIcon.svg'
 import airbnb from '../airbnb4.png'
 import node from '../node.png'
-
+import bookrbook from '../bookrbook.png'
 import citrics_three from '../citrics_three.png'
 
 import Fade from 'react-reveal/Fade';
@@ -110,7 +110,7 @@ function Project() {
                     </Fade>
                     <Fade right>
                          <div className="immunify-picture" id="bookr-photo">
-                              <img src={BookrBook} />
+                              <img src={bookrbook} />
                          </div>
                     </Fade>
                </div>
