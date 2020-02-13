@@ -109,7 +109,7 @@ function Project() {
                     </Fade>
                     <Fade right>
                          <div className="immunify-picture" id="bookr-photo">
-                              <img src={book_img} alt="bookr"/>
+                              <img src={bookr_img} alt="bookr"/>
                          </div>
                     </Fade>
                </div>
