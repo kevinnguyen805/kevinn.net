@@ -1,6 +1,6 @@
 import React from 'react'
 import ImmunifyPicture from '../ImmunifyPicture.png'
-import BookrBook from '../BookrBook.JPG'
+import BookrBook from '../BookrBook.jpg'
 import Marvel1 from '../Marvel1.png'
 import ReactIcon from '../ReactIcon.svg'
 import airbnb from '../airbnb4.png'
