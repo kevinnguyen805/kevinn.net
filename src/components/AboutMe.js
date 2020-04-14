@@ -17,21 +17,21 @@ function AboutMe() {
                     <Fade left>
                     <div className="about-content-container">
                          <h5 className="about-subtitle">Where I've been</h5>
-                         <p><span className="about-accents">Everywhere I go, I try and surround myself in unfamiliar environments. </span>You get to meet some pretty cool people that way. Growing up, I spent 6 years studying Buddhism with monks, ran for office in high school, and joined two fraternities in college. I also volunteered as a paramedic at festivals, shadowed the leading pioneer of ketamine psychotherapy, and worked with the homeless population for a few years. <span className="about-accents">All of this has broadened my understanding of people and myself.</span> </p>
+                              <p>Everywhere I go, I try and surround myself in unfamiliar environments. You get to meet some pretty cool people that way. I spent 6 years studying Buddhism with monks, worked with the pioneer of ketamine psychotherapy, and delivered street medicine to the homeless. All of this has <span className="about-accents">broadened my understanding of people and myself</span>.</p>
                     </div>
                     </Fade>
 
                     <Fade bottom>
                     <div className="about-content-container">
                          <h5 className="about-subtitle">What I'm doing</h5>
-                         <p>After graduating from University of California, Santa Barbara with a <span className="about-accents">degree in Biology</span>, I threw in my scrubs to become a <span className="about-accents"> FullStack Web Developer</span>.</p> <p>If I’ve learned anything from coding thus far, it’s that <span className="about-italics">languages are always changing and evolving - and I plan on doing the same.</span></p>
+                              <p>Upon graduating from University of California, Santa Barbara in biology, I threw in my scrubs to become a <span className="about-accents">developer</span>. In my free time, I enjoy studying <span className="about-accents">user-driven design</span> and reading about <span className="about-accents">product strategies</span>.</p> <p>If I’ve learned anything thus far, it’s that tech is always evolving - and I plan on doing the same.</p>
                     </div>
                     </Fade>
 
                     <Fade right>
                     <div className="about-content-container">
                          <h5 className="about-subtitle">What I hope to do</h5>
-                         <p>Being able to empathize in the perspective of the people has changed the way I’ve approached software development. I want to apply all the values and insights I’ve gained to <span className="about-accents">continue delivering work that is objectively structured, as well as subjectively meaningful to a wide spectrum of users.</span> Having the opportunity to do this for a small to mid-sized company would be an absolute dream. </p>
+                              <p>There’s something about building a product from the ground up that moves me like no other. A big part comes from the buildup. Moments where adrenaline is what kicks a team into hyper focus - those are when I feel most alive. When I’m <span className="about-accents">framing</span>, <span className="about-accents">prototyping</span>, or <span className="about-accents">building</span> a project, it feels like this all the time.</p>
                     </div>
                     </Fade>
                </div>

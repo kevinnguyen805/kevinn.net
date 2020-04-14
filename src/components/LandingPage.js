@@ -24,7 +24,7 @@ function LandingPage() {
                          </div>
                     </nav>
                </div>
-               <Fade top>
+               {/* <Fade top> */}
                <div className="logo-container">
                     <img src={Logo} alt="logo" className="logo" />
                </div>
@@ -32,7 +32,7 @@ function LandingPage() {
                <div className="landing-page-button-container">
                     <a href="#about"><button className="landing-page-button">PROCEED</button></a>
                </div>
-               </Fade>
+               {/* </Fade> */}
           </div>
      )
 }
