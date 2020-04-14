@@ -29,7 +29,7 @@ function Project() {
                <div className="individual-project bookr">
                     <Fade left>
                          <div className="immunify-picture" id="citrics">
-                              <a href="https://www.citrics.io/"><img src={citrics_three} /></a>
+                              <a href="https://www.v1.citrics.io/"><img src={citrics_three} /></a>
                          </div>
                     </Fade>
                     <Fade right>

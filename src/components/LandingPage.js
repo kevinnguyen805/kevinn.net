@@ -20,7 +20,7 @@ function LandingPage() {
                               <a href="#about">About</a>
                               <a href="#projects">Projects</a>
                               <a href="#contact">Contact</a>
-                              <a href="https://drive.google.com/file/d/18WHEUAjY55ApsDZYsOCvBGoDpz7tFOCb/view?usp=sharing" className="resume">Resume</a>
+                              <a href="https://drive.google.com/file/d/1lRHMpqbbzWkmIB-aSHKmnkoCznrJHeI8/view" className="resume">Resume</a>
                          </div>
                     </nav>
                </div>
