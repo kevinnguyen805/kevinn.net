@@ -29,16 +29,17 @@ function Project() {
                <div className="individual-project bookr">
                     <Fade left>
                          <div className="immunify-picture" id="citrics">
-                              <a href="https://www.v1.citrics.io/"><img src={citrics_three} /></a>
+                              <a href="https://v1.citrics.io/"><img src={citrics_three} /></a>
                          </div>
                     </Fade>
                     <Fade right>
                          <div className="content">
                               <h3 className="project-headline">Citrics</h3>
-                              <h4 className="project-subheadline">Capstone Project</h4>
-                              <p>Citrics was awarded first place at Lambda Demo Day 2020.</p>
+                              <h4 className="project-subheadline">Fullstack & Product Manager</h4>
+                              <p>Citrics was awarded 1st place among 24 teams at Lambda Demo Day 2020.</p>
 
-                              <p>Citrics is a search engine that streamlines city data such as the housing market, job industry, and community statistics through an intuitive and easy interface.</p>
+                              {/* <p>Citrics is a search engine that streamlines city data such as the housing market, job industry, and community statistics through an intuitive and easy interface.</p> */}
+                              <p>Utilized React Context API, React hooks, and Flask app to build data search engine, as well as Chart.js and MapBox to render data visualizations for housing markets, job industry, and cultural demographics.</p>
                               <div className="tech-stack">
                                    <img className="code-icon" src={ReactIcon} />
                                    <p>Tech stack: React, Node.js, ChartJS, OAuth, MapBox, Google Analytics </p>
@@ -54,8 +55,8 @@ function Project() {
                     <Fade left>
                     <div className="content">
                          <h3 className="project-headline">Immunify</h3>
-                         <h4 className="project-subheadline">Lambda Build Week</h4>
-                         <p>Immunify is an immunization tracking app, allowing users to keep track of your family's immunization records through your phone. This app also allows medical professionals to upload immunization records to your personal or family account. </p>
+                         <h4 className="project-subheadline">Frontend Developer</h4>
+                         <p>Immunify is an immunization tracking app, allowing users to keep track of your family's immunization records through your phone. Built through user research, Figma, and responsive styling.</p>
                          <p>Tech stack: HTML5, CSS3 </p>
                          <a href="https://immunify-app.netlify.com/"><button className="project-button">View</button></a>
                          <a href="https://github.com/BWimmunizationtracker/frontEnd"><button className="project-code-button">Code</button></a>
@@ -78,8 +79,9 @@ function Project() {
                     <Fade right>
                     <div className="content">
                          <h3 className="project-headline">AirBnB Price Optimizer</h3>
-                         <h4 className="project-subheadline" id="airbnb-subheadline">Lambda Build Week</h4>
-                         <p>AirBnB Price Optimizer utilizes past AirBnB datasets to determine the optimal pricing of an AirBnB unit based upon features such as geographic location, size, bedrooms, etc. </p>
+                         <h4 className="project-subheadline" id="airbnb-subheadline">Fullstack & Product Manager</h4>
+                         {/* <p>AirBnB Price Optimizer utilizes past AirBnB datasets to determine the optimal pricing of an AirBnB unit based upon features such as geographic location, size, bedrooms, etc. </p> */}
+                         <p>Designed relational database using Knex, SQLite3, Postgres for data persistence and integrated Flask app to React app using Axios to allow users to optimize housing prices based on historical data in Berlin.</p>
                          <div className="tech-stack" id="node-stack">
                               <img className="code-icon" src={node} id="node" />
                               <p>Tech stack: Node.Js, Express, SQL, Knex.Js, React, Machine Learning</p>
@@ -95,8 +97,9 @@ function Project() {
                     <Fade left>
                     <div className="content">
                          <h3 className="project-headline">Bookr</h3>
-                         <h4 className="project-subheadline">Lambda Build Week </h4>
-                         <p>Bookr is a web application that allows its users to review and search through thousands of books. If the book is in stock, you can be transferred to the Google books store to buy it. Clicking the book will take you to a page with information about the specific book.</p>
+                         <h4 className="project-subheadline">Frontend Developer</h4>
+                         {/* <p>Bookr is a web application that allows its users to review and search through thousands of books. If the book is in stock, you can be transferred to the Google books store to buy it. Clicking the book will take you to a page with information about the specific book.</p> */}
+                         <p>Implemented stage management system and client-side authentication through Axios, Redux, and React hooks to allow users to view and purchase books through Google Books domain.</p>
                          <div className="tech-stack">
                               <img className="code-icon" src={ReactIcon} />
                               <p>Tech stack: React, React Hooks, Axios, Material UI, Google Books API</p>
